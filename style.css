@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(252, 234, 212, 0.877);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100vmin 100vh;
+}
+
+#gameBoard {
+  background: linear-gradient(#ffff23c2, #2a2affde);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  border: 2px solid black;
+  height: 90vmin;
+  width: 90vmin;
+  margin-top: 1rem;
+}
+
+.snakeBody {
+  background: linear-gradient(rgb(123, 250, 123), rgb(129, 68, 129));
+  border: 0.25vmin solid black;
+  border-radius: 8px;
+}
+
+.snakeHead {
+  background: linear-gradient(black, yellow);
+  border: 0.25vmin solid black;
+  border-radius: 8px;
+}
+
+.snakeFood {
+  background: linear-gradient(rgb(255, 69, 69), rgb(0, 13, 128));
+  border: 0.25vmin solid black;
+  border-radius: 8px;
+}
